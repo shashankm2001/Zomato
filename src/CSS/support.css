@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.image1
+{ 
+background-image:linear-gradient(transparent,rgba(0, 0, 0, 0.575)),url(../CSS/Background.png );
+background-size: 100%;
+background-repeat: no-repeat;
+width:100%;
+height:430px;
+background-position: 20% 52%;
+}
+.logo
+{
+    border: 1px solid transparent;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.location
+{
+    width: 245px;  
+    height: 60px;
+}
+.restaurant
+{
+    width: 477px;
+    height: 60px;
+    margin-left: 4px;
+}
+.foodImg {
+    width: 240px;
+    padding: 20px;
+}
+.quick
+{
+    color: #192F60; 
+}
+.discover
+{
+    color: #8C96AB;
+    font-size: 18px;
+}
+.breakFast
+{
+    color:#192F60;
+}
+.desc
+{
+    color:#8C96AB;
+    width:153px;
+    height: 62px;
+    margin-top: 4px;
+}
+.searchicon
+{
+    font-family: fontawesome;
+   
+}

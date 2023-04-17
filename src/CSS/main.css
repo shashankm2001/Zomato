@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: borderbox;
+
+}
+
+body {
+    font-family: Poppins;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+
+}
+
+.headerSection {
+    background-color: #CE0505;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.loginBtn {
+    border: 0;
+}
+
+.customBtn {
+    /*font: normal normal medium 16px/25px Poppins;*/
+    color: white;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.createAccBtn {
+    border: 1px solid white;
+    padding: 12px 15px;
+    border-radius: 3px;
+}
+
+/*.logo {
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 38px;
+    margin: top 40px;
+    text-align: center;
+    flex: 1;
+    line-height: 52px;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+    margin-left: 25px;
+    font-family: Poppins;
+}*/
+
+.descript {
+    margin-left: 6%;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #192F60;
+    font-weight: bold;
+    font-weight: Poppins;
+
+}
+
+.minisection {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.selection {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 24%;
+    height: 100%;
+    padding: 15px 5px;
+}
+
+.cookery {
+    width: 75%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.head {
+    color: #192F60;
+    padding: 0px 50px;
+    height: 100%;
+}
+
+.filterMargin {
+    margin: 30px 0px;
+}
+
+.chkboxColor {
+    color: #8C96AB;
+    margin-top: 10px;
+}
+
+.radioboxColor {
+    color: #8C96AB;
+    margin-top: 10px;
+}
+
+.sorting {
+    margin: 30px 0px;
+}
+
+.sortingRadio {
+    margin-top: 10px;
+}
+
+.bigChilli {
+    margin: 50px;
+    border: 1px solid wheat;
+}
+
+.heading1 {
+    text-align: center;
+    color: #192F60;
+}
+.demo-container {
+    width: 70%;
+}
+.demo {
+    width: 380px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 30px;
+    margin: 0px 20px;
+    margin-bottom: 34px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.demo2 {
+    background-color: aqua;
+    margin: 50px;
+}
+
+.hotel1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info {
+    margin: 0 5%;
+}
+
+.imageAdjust {
+    width: 120px;
+    height: 120px;
+    border-radius: 35px;
+    opacity: 5px;
+    margin-bottom: 30px;
+}
+
+.hello1 {
+    color: #192F60;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hello2 {
+    color: #192F60;
+    font-size: 16px;
+}
+
+.hello3 {
+    color: #636F88;
+    font-size: 16px;
+}
+
+.Cost {
+    display: flex;
+    margin-top: 20px;
+}
+
+.bakery {
+    margin-left: 30px;
+}
+
+.cost1 {
+    margin-left: 30px;
+}
+
+.left_desc {
+    color: #636F88;
+}
+
+.right_desc {
+    color: #192F60;
+}
+
+.pagingnation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /*margin-right: 28%;*/
+}
+
+.borderpaging {
+
+    box-shadow: 0px 0px 2px 0px gray;
+    padding: 10px;
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    color: #8C96AB;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 11px;
+}
